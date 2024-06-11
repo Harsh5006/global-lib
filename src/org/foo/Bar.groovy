@@ -1,7 +1,7 @@
-package src.org.foo
+package org.foo
 
-class Deployment{
-  public static void Deploy(){
-    println("Deployment Successfully")
-  }
+class Bar {
+    static void execute() {
+        println("Executing Bar class")
+    }
 }
